@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: #F7F6F2;
+    border-top: 5px solid #DE5F23;
+}
+h1,h2,h3,h4,p { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: #020201;
+}
+a {
+    color: #715445;
+}
