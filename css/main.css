@@ -1,12 +1,58 @@
-body {
-    margin: 0;
-    background: #F7F6F2;
-    border-top: 5px solid #DE5F23;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-h1,h2,h3,h4,p { 
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    color: #020201;
+body {
+  background: #F7F6F2;
+  display: flex;
+  flex-direction: column;
+}
+h1,h2,h3,h4,p,nav {
+  font-family: "Open Sans", sans-serif;
+  color: #020201;
+  margin: 0;
+  padding: 10px 0px;
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 3em;
 }
 a {
-    color: #715445;
+  color: #715445;
+}
+header {
+  display: flex;
+}
+header, nav, main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header h1 {
+  flex: 3;
+}
+header .icon {
+  flex: 1;
+  padding: 10px 0px;
+  text-align: right;
+}
+header img {
+  width: 100px;
+  border-radius: 100px;
+  border: 5px solid #8CB495;
+}
+section {
+  border-top: 8px solid #DE5F23;
+  flex: 1;
+}
+footer {
+  background-color: #DE5F23;
+  text-align: center;
+}
+footer p {
+  color: #F7F6F2;
 }
