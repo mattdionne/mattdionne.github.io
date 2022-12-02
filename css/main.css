@@ -6,13 +6,13 @@ html, body {
   padding: 0;
 }
 body {
-  background: #F7F6F2;
+  background: #FBFCFB;
   display: flex;
   flex-direction: column;
 }
 h1,h2,h3,h4,p,nav {
   font-family: "Open Sans", sans-serif;
-  color: #020201;
+  color: #151C16;
   margin: 0;
   padding: 10px 0px;
   line-height: 1.2em;
@@ -21,7 +21,7 @@ h1 {
   font-size: 3em;
 }
 a {
-  color: #715445;
+  color: #472a24;
 }
 header {
   display: flex;
@@ -43,14 +43,14 @@ header .icon {
 header img {
   width: 100px;
   border-radius: 100px;
-  border: 5px solid #8CB495;
+  border: 5px solid #628266;
 }
 section {
-  border-top: 8px solid #DE5F23;
+  border-top: 8px solid #628266;
   flex: 1;
 }
 footer {
-  background-color: #DE5F23;
+  background-color: #628266;
   text-align: center;
 }
 footer p {
