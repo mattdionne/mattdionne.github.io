@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-h1, h2, h3, h4, p, nav, li {
+h1, h2, h3, h4, p, nav, li, figcaption, details {
   font-family: Raleway, sans-serif;
   color: #151C16;
   margin: 0;
@@ -36,8 +36,13 @@ blockquote {
   margin: 30px 0 0;
   padding-left: 15px;
 }
-blockquote p {
+blockquote > p {
   padding: 0;
+}
+details {
+  font-style: normal;
+  font-size: 0.8em;
+  padding: 10px 0 0;
 }
 .container {
   border-top: 8px solid #628266;
