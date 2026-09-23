@@ -27,13 +27,32 @@ h1 {
 a {
   color: #472a24;
 }
-ul, figure {
+ul {
   margin: 0;
+}
+figure {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.2rem;
+  align-items: start;
+  margin: 2rem 0 0;
+}
+figure > img {
+  grid-row: 1 / span 2;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #628266;
+}
+figure > blockquote,
+figure > figcaption {
+  grid-column: 2;
 }
 blockquote {
   border-left: 4px solid #628266;
   font-style: italic;
-  margin: 30px 0 0;
+  margin: 0;
   padding-left: 15px;
 }
 blockquote > p {
@@ -67,7 +86,7 @@ header .profile-image {
 }
 header img {
   width: 250px;
-  border-radius: 150px;
+  border-radius: 50%;
   outline: 7px solid #628266;
 }
 footer {
